@@ -9,7 +9,7 @@ load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 
 # Initialize LLM
-llm = ChatOpenAI(
+llm = ChatOpenAI(   
     model="gpt-4o-mini",
     api_key=api_key,
     temperature=0
