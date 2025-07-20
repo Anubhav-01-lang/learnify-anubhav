@@ -2,3 +2,6 @@ streamlit
 python-dotenv
 langchain
 langchain-openai
+google-api-python-client==2.121.0
+beautifulsoup4
+google-auth
